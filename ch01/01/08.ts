@@ -12,5 +12,5 @@ const states: State[] = [
   { name: 'Arizona', capital: 'Phoenix' },
   // ...
 ]
-
+// interface를 정의하고 타입으로 지정하면 Interface의 프로퍼티명과 다를경우 잡아줌.
 export default {}

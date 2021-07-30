@@ -4,4 +4,4 @@ function greet(who: string) {
 
 greet('juyoung')
 
-export default {}
+// export default {}

@@ -8,7 +8,7 @@ const states = [
 // END
 
 for (const state of states) {
-  console.log(state.capital)
+  console.log(state.capitol)
   // ~~~~~~~ Property 'capitol' does not exist on type
   //         '{ name: string; capital: string; }'.
   //         Did you mean 'capital'?
