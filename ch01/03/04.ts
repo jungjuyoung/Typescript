@@ -11,10 +11,10 @@ type Shape = Square | Rectangle
 function calculateArea(shape: Shape) {
   if (shape instanceof Rectangle) {
     shape // Type is Rectangle
-    return shape.width * shape.height
+    return shape.width * shape.height 
   } else {
     shape // Type is Square
-    return shape.width * shape.width // OK
+    return shape.width * shape.width // OK Square에 height없음
   }
 }
 

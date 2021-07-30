@@ -19,5 +19,6 @@ interface NamedVector {
 
 const v: NamedVector = { x: 3, y: 4, name: 'Zee' }
 calculateLength(v) // OK, result is 5
+// v로 넘긴 값이 Vector2D에서 요구하는 x,y를 충족하면 더 넘치는 프로퍼티는 괜찮다.
 
 export default {}
