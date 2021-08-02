@@ -14,7 +14,7 @@ function getElement(elOrId: string | HTMLElement | null): HTMLElement | null{
 }
 
 // export default {}
-
+// 함수 선언식
 function add(a:number, b: number) : number{
   return a + b
 }
@@ -26,6 +26,10 @@ function logMessage(msg:string | null) {
     msg
   }
 }
+// 함수 표현식, 화살표 함수
+const multiple = (a: number, b: number): number => a * b
+console.log(multiple(2, 2))
+  
 
 // tuple
 // const arr: [string, number] = [10, '10'] // number형식은 String에 대입할 수 없다.
