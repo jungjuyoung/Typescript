@@ -4,4 +4,5 @@ const double: [number, number] = triple
 //          Types of property 'length' are incompatible
 //          Type '3' is not assignable to type '2'
 
+// tuple은 정확히 일치 해야한다.
 export default {}
