@@ -25,8 +25,10 @@ function calculateVolume(shape: unknown) {
   }
 }
 type T1 = typeof p // Type is Person
+// T1은 Person Type이 오고
 type T2 = typeof email
 // Type is (p: Person, subject: string, body: string) => Response
+// T2는 function email(p: Person, subject: string, body: string): Response 까지가 타입으로 오고, 함수의 Response 다음 {...}은 값임.
 
 const v1 = typeof p // Value is "object"
 const v2 = typeof email // Value is "function"

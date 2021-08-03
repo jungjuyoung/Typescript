@@ -19,9 +19,10 @@ class Cylinder {
 }
 
 function calculateVolume(shape: unknown) {
-  if (shape instanceof Cylinder) {
-    shape // OK, type is Cylinder
-    shape.radius // OK, type is number
+  // class는 값이자 타입이 되니까
+  if (shape instanceof Cylinder) { // 여기서는 값으로 쓰임
+    shape // OK, type is Cylinder 여기서는 type으로 쓰임
+    shape.radius // OK, type is number // 여기서는 값으로 쓰임
   }
 }
 

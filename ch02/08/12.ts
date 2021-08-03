@@ -29,5 +29,7 @@ type T = typeof Cylinder // Type is typeof Cylinder
 type PersonEl = Person['first' | 'last'] // Type is string
 type Tuple = [string, number, Date]
 type TupleEl = Tuple[number] // Type is string | number | Date
-
+// Tuple[0] = string 타입 지정, Tuple[1] = number 타입 지정, Tuple[2] = Date타입 지정
+// Tuple에 string | number | Data 유니온 타입이 
+// number가 0, 1, 2 중에 하나만 올 수 있으니까
 export default {}

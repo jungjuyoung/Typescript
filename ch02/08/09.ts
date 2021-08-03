@@ -26,7 +26,7 @@ function calculateVolume(shape: unknown) {
 }
 const v = typeof Cylinder // Value is "function"
 type T = typeof Cylinder // Type is typeof Cylinder
+
 declare let fn: T
 const c = new fn() // Type is Cylinder
-
 export default {}
