@@ -12,4 +12,22 @@ function email({person, subject, body}: { person: Person, subject: string, body:
   console.log(body)
 }
 
+function obj(paramOBJ: { person:Person, subject:string, body?:number }): void{
+  const { person, subject, body } = paramOBJ
+  // 매개변수로 객체인 paramOBJ 받는다
+  // paramOBJ.person의 타입은 Person,
+  // paramOBJ.subject의 타입은 string,
+  // paramOBJ.body의 타입은 number. ?는 값이 있을수도 있고 없을수도 있다. number | undefined
+}
+
+type C = { first: string, last?: string }
+function func({first, last} : C): void {
+  
+}
+
+// 기본값 적용하기
+function func2({first, last = ""} : C) : void{
+  
+}
+
 export default {}
