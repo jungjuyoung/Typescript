@@ -9,6 +9,7 @@ const alice: Person = {
 }
 const bob = {
   name: 'Bob',
+  birth: new Date(),
   occupation: 'JavaScript developer',
 } as Person // No error
 
