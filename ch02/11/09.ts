@@ -1,6 +1,6 @@
 interface Options {
-  darkMode?: boolean
-  [otherOptions: string]: unknown
+  darkMode?: boolean // darkMode 선택적으로 있어도 되고 없어도 되고, 
+  [otherOptions: string]: unknown // 추가되는 다른 애들은 아무렇게나 오게
 }
 const o: Options = { darkmode: true } // OK
 

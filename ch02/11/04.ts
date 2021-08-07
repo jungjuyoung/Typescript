@@ -15,7 +15,7 @@ function createWindow(options: Options) {
 }
 createWindow({
   title: 'Spider Solitaire',
-  darkmode: true,
+  darkmode: true, //<-- 대소문자 틀려서 생긴것, darkMode로 써주면 Ok
   // ~~~~~~~~~~~~~ Object literal may only specify known properties, but
   //               'darkmode' does not exist in type 'Options'.
   //               Did you mean to write 'darkMode'?
