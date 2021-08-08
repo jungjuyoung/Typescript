@@ -23,4 +23,7 @@ function getUserInfo(userId: string) {
 }
 // Return type inferred as { userId: string; name: string; age: number, ... }
 
+// 함수의 리턴값의 타입을 정의하고 싶을때
+type UserInfo = ReturnType<typeof getUserInfo>
+
 export default {}

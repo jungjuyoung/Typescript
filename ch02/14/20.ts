@@ -4,11 +4,15 @@ const INIT_OPTIONS = {
   color: '#00FF00',
   label: 'VGA',
 }
-interface Options {
-  width: number
-  height: number
-  color: string
-  label: string
-}
+// 값에 해당하는 타입을 정의하고 싶을때 간단한 방법
+type Options = typeof INIT_OPTIONS
+type Fetch = typeof fetch
+
+// interface Options {
+//   width: number
+//   height: number
+//   color: string
+//   label: string
+// }
 
 export default {}
