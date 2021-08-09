@@ -35,4 +35,7 @@ type Row3 =
   | { a: number; b: number; c: number }
   | { a: number; b: number; c: number; d: number }
 
+// Row3 다음과 같이 간략하게 표현가능.
+type Row3Record = Record<'a' | 'b' | 'c' | 'd', number>
+
 export default {}
