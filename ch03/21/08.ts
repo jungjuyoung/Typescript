@@ -21,4 +21,5 @@ const v3 = {
   y: 2,
 } as const // Type is { readonly x: 1; readonly y: 2; }
 
-export default {}
+
+// export default {}
